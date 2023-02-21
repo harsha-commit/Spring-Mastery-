@@ -1,0 +1,4 @@
+Steps to be followed:
+--------------------
+1. In Plugins, Install and Enable Lombok Plugin
+2. In Execution, Deployment > Compiler > Annotation Processors, Enable annotation processing ✅

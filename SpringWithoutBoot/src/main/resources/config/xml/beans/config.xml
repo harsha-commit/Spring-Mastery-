@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans>
+
+    <bean id="address" class="config.xml.beans.Address">
+        <property name="city" value="Nizamabad"></property>
+        <property name="street" value="Khaleelwadi"></property>
+    </bean>
+
+    <bean class="config.xml.beans.Student" id="student">
+        <property name="name" value="Harsha Vardhan Bashavathini"></property>
+        <property name="age" value="23"></property>
+        <property name="address" ref="address"></property>
+    </bean>
+</beans>

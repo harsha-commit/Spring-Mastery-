@@ -2,7 +2,7 @@ package com.spring.core.couple;
 
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("cat")
 public class Cat implements Pet{
     @Override
     public void play() {

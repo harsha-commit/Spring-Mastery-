@@ -1,20 +1,23 @@
-2023-02-23T23:44:25.252+05:30  INFO 14000 --- [restartedMain] c.s.mvc.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.5 with PID 14000 (D:\Spring Boot Bootcamp\SpringMvcProject\target\classes started by harsh in D:\Spring Boot Bootcamp\SpringMvcProject)
-2023-02-23T23:44:25.256+05:30 DEBUG 14000 --- [restartedMain] c.s.mvc.SpringMvcProjectApplication      : Running with Spring Boot v3.0.2, Spring v6.0.4
-2023-02-23T23:44:25.257+05:30  INFO 14000 --- [restartedMain] c.s.mvc.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
-2023-02-23T23:44:25.333+05:30  INFO 14000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-02-23T23:44:25.334+05:30  INFO 14000 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-02-23T23:44:26.539+05:30  INFO 14000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
-2023-02-23T23:44:26.551+05:30  INFO 14000 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-02-23T23:44:26.551+05:30  INFO 14000 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
-2023-02-23T23:44:26.609+05:30  INFO 14000 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-02-23T23:44:26.610+05:30  INFO 14000 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1275 ms
-2023-02-23T23:44:27.052+05:30  INFO 14000 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-02-23T23:44:27.099+05:30  INFO 14000 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
-2023-02-23T23:44:27.108+05:30  INFO 14000 --- [restartedMain] c.s.mvc.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 2.348 seconds (process running for 2.793)
-2023-02-23T23:44:28.955+05:30  INFO 14000 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-02-23T23:44:28.955+05:30  INFO 14000 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-02-23T23:44:28.956+05:30  INFO 14000 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-02-23T23:44:28.991+05:30 ERROR 14000 --- [http-nio-8081-exec-2] c.s.mvc.controller.ProductController     : Product Name: iphone is not right !!
-2023-02-23T23:44:28.991+05:30  WARN 14000 --- [http-nio-8081-exec-2] c.s.mvc.controller.ProductController     : Product Id: 123
-2023-02-23T23:44:28.993+05:30  INFO 14000 --- [http-nio-8081-exec-2] c.s.mvc.controller.ProductController     : Product Rating: 4.5 better be integer
-2023-02-23T23:44:28.993+05:30 DEBUG 14000 --- [http-nio-8081-exec-2] c.s.mvc.controller.ProductController     : Just for debugging
+2023-02-24T11:11:08.027+05:30  INFO 8728 --- [restartedMain] c.s.mvc.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.5 with PID 8728 (D:\Spring Boot Bootcamp\SpringMvcProject\target\classes started by harsh in D:\Spring Boot Bootcamp\SpringMvcProject)
+2023-02-24T11:11:08.038+05:30 DEBUG 8728 --- [restartedMain] c.s.mvc.SpringMvcProjectApplication      : Running with Spring Boot v3.0.2, Spring v6.0.4
+2023-02-24T11:11:08.039+05:30  INFO 8728 --- [restartedMain] c.s.mvc.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-02-24T11:11:08.114+05:30  INFO 8728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-24T11:11:08.114+05:30  INFO 8728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-24T11:11:09.295+05:30  INFO 8728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-02-24T11:11:09.304+05:30  INFO 8728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-24T11:11:09.305+05:30  INFO 8728 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-02-24T11:11:09.352+05:30  INFO 8728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-24T11:11:09.353+05:30  INFO 8728 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1238 ms
+2023-02-24T11:11:09.817+05:30  INFO 8728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-24T11:11:09.851+05:30  INFO 8728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-02-24T11:11:09.862+05:30  INFO 8728 --- [restartedMain] c.s.mvc.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 2.303 seconds (process running for 2.796)
+2023-02-24T11:11:29.811+05:30  INFO 8728 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-24T11:11:29.812+05:30  INFO 8728 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-24T11:11:29.813+05:30  INFO 8728 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-24T11:11:29.843+05:30  WARN 8728 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-02-24T11:11:55.190+05:30  WARN 8728 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<com.spring.mvc.model.Student>> com.spring.mvc.controller.StudentController.createStudent(java.util.List<com.spring.mvc.model.Student>)]
+2023-02-24T11:11:57.286+05:30  WARN 8728 --- [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.util.List<com.spring.mvc.model.Student>> com.spring.mvc.controller.StudentController.createStudent(java.util.List<com.spring.mvc.model.Student>)]
+2023-02-24T11:12:31.570+05:30 ERROR 8728 --- [http-nio-8081-exec-7] c.s.mvc.controller.ProductController     : Product Name: iphone is not right !!
+2023-02-24T11:12:31.571+05:30  WARN 8728 --- [http-nio-8081-exec-7] c.s.mvc.controller.ProductController     : Product Id: 123
+2023-02-24T11:12:31.576+05:30  INFO 8728 --- [http-nio-8081-exec-7] c.s.mvc.controller.ProductController     : Product Rating: 4.5 better be integer
+2023-02-24T11:12:31.577+05:30 DEBUG 8728 --- [http-nio-8081-exec-7] c.s.mvc.controller.ProductController     : Just for debugging
